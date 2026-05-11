@@ -7,14 +7,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Python Agents
 ```sh
 # Run any chapter agent (all self-contained, no monorepo build needed)
-python agents/s01_agent_loop.py
-python agents/s_full.py
+# Use the virtual environment Python
+~/.venv/bin/python3 agents/s01_agent_loop.py
+~/.venv/bin/python3 agents/s_full.py
 
 # Run all Python tests
-python -m pytest tests/ -q
+~/.venv/bin/python3 -m pytest tests/ -q
 
 # Run a single test
-python -m pytest tests/test_agents_smoke.py -q
+~/.venv/bin/python3 -m pytest tests/test_agents_smoke.py -q
 ```
 
 ### Web Platform (Next.js)
