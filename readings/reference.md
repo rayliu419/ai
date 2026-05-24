@@ -1,0 +1,8 @@
+- shareAI-lab/learn-claude-code
+  - 从0到1实现类似Claude Code功能的教学仓库，适合初学者。
+- claude code source code
+  - https://zhuanlan.zhihu.com/p/2022442135182406883
+- Dive-into-Claude-Code
+  - https://github.com/VILA-Lab/Dive-into-Claude-Code#the-agentic-query-loop
+- Harness engineering papers
+- OpenAI/Anthropic blog
